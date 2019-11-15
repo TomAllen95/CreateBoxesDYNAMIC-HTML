@@ -1,0 +1,73 @@
+document,
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    flex-wrap: wrap;
+}
+
+#box {
+    /* width: 20vw;
+    height: 20vw; */
+    width: auto;
+    height: auto;
+    padding-right: 20px;
+    font-family: Helvetica, sans-serif;
+    font-size: calc(5rem + 2vmin);
+    font-weight: bold;
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    background-color: orange;
+    border: black;
+    border-style: solid;
+}
+
+#input {
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#input2 {
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#container {
+    display: flex;
+    width: 100%;
+    height: 30vh;
+    color: Black;
+    background-image: url(../TimelineCovers.pro_lush-green-grass-mountains-at-kosovo-facebook-cover.jpg);
+}
+
+#submit {
+    width: 50px;
+    height: 45px;
+    color: red;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#submit2 {
+    width: 50px;
+    height: 45px;
+    color: red;
+    margin-top: 20px;
+    margin-left: 10px;
+}
